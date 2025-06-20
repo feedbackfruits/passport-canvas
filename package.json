@@ -3,8 +3,10 @@
   "version": "0.1.2",
   "description": "Canvas authentication strategy for Passport.",
   "scripts": {
-    "test": "nyc make test",
-    "coverage": "codecov"
+    "build": "tsc",
+    "test": "ts-mocha 'test/*.test.ts'",
+    "test:cov": "nyc ts-mocha 'test/*.test.ts'",
+    "prepublish": "yarn build"
   },
   "keywords": [
     "passport",
@@ -25,22 +27,35 @@
   "bugs": {
     "url": "http://github.com/feedbackfruits/passport-canvas/issues"
   },
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "http://www.opensource.org/licenses/MIT"
-    }
-  ],
-  "main": "./lib",
+  "license": "MIT",
+  "main": "./dist",
   "dependencies": {
-    "passport-oauth2": "1.x.x"
+    "passport-oauth2": "1.8.0"
   },
   "devDependencies": {
-    "chai": "1.x.x",
-    "mocha": "1.x.x",
-    "nyc": "^11.2.1"
+    "@feedbackfruits/eslint-config": "2.0.1",
+    "@feedbackfruits/tsconfig": "1.0.2",
+    "@istanbuljs/nyc-config-typescript": "1.0.2",
+    "@types/chai": "5.2.2",
+    "@types/expect": "24.3.2",
+    "@types/mocha": "10.0.10",
+    "@types/passport-oauth2": "1.4.17",
+    "@typescript-eslint/eslint-plugin": "8.34.1",
+    "@typescript-eslint/parser": "8.34.1",
+    "chai": "5.2.0",
+    "eslint": "9.29.0",
+    "eslint-plugin-import": "2.31.0",
+    "mocha": "11.7.0",
+    "nyc": "17.1.0",
+    "passport": "0.7.0",
+    "sinon": "21.0.0",
+    "ts-mocha": "11.1.0",
+    "ts-node": "10.9.2",
+    "tsconfig-paths": "4.2.0",
+    "typescript": "5.8.3"
   },
   "engines": {
-    "node": ">= 0.8.0"
-  }
+    "node": "20.*"
+  },
+  "packageManager": "yarn@4.5.0"
 }
