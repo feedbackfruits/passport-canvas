@@ -36,7 +36,7 @@
   },
   "devDependencies": {
     "@feedbackfruits/eslint-config": "2.0.1",
-    "@feedbackfruits/tsconfig": "1.0.2",
+    "@feedbackfruits/tsconfig": "2.0.1",
     "@istanbuljs/nyc-config-typescript": "1.0.2",
     "@types/chai": "5.2.2",
     "@types/expect": "24.3.2",
