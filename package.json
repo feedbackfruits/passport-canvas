@@ -38,7 +38,7 @@
     "@feedbackfruits/eslint-config": "2.0.1",
     "@feedbackfruits/tsconfig": "1.0.2",
     "@istanbuljs/nyc-config-typescript": "1.0.2",
-    "@types/chai": "5.2.2",
+    "@types/chai": "5.2.3",
     "@types/expect": "24.3.2",
     "@types/mocha": "10.0.10",
     "@types/passport-oauth2": "1.8.0",
