@@ -299,10 +299,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@feedbackfruits/tsconfig@npm:1.0.2":
-  version: 1.0.2
-  resolution: "@feedbackfruits/tsconfig@npm:1.0.2"
-  checksum: 10c0/d47ec594b02f6b5f7b5f485f17bdf853999d288edb0b3b2439f387bc0480594b6c2d74b8d0e698e538cb7589072a70a689ee211cc5aefe23ad170a03e673b741
+"@feedbackfruits/tsconfig@npm:2.0.1":
+  version: 2.0.1
+  resolution: "@feedbackfruits/tsconfig@npm:2.0.1"
+  checksum: 10c0/1dd4e8d057c8386e3b4cfb8a519a34546b309945b4f0c734cd6273898ed8ac196a468772a6898db2244eee7a30c48f5b897aa634dc5fd2ac102c148012d53671
   languageName: node
   linkType: hard
 
@@ -3427,7 +3427,7 @@ __metadata:
   resolution: "passport-canvas@workspace:."
   dependencies:
     "@feedbackfruits/eslint-config": "npm:2.0.1"
-    "@feedbackfruits/tsconfig": "npm:1.0.2"
+    "@feedbackfruits/tsconfig": "npm:2.0.1"
     "@istanbuljs/nyc-config-typescript": "npm:1.0.2"
     "@types/chai": "npm:5.2.2"
     "@types/expect": "npm:24.3.2"
